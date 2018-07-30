@@ -1,0 +1,106 @@
+<div class="container-fluid login-container">
+  <div class="login-wrapper">
+    <div class="login-img-wrapper">
+      <img src="assets/imgs/White.png">
+    </div>
+    <div class="login-content-wrapper">
+      <form #newUserForm="ngForm" (ngSubmit)="onSubmit(newUserForm)">
+        
+<!--         <div class="input-group">
+          <span class="input-group-addon">
+              <i class="glyphicon glyphicon-user"></i>
+            </span>
+          <input id="username" type="text" class="form-control" [(ngModel)]="username" #userName="ngModel" name="username" placeholder="UserName" required>
+        </div>
+        <div class="error-class" *ngIf="!userName.valid && userName.touched">
+          UserName is required!
+        </div>
+        <br> -->
+
+                <div class="input-group">
+          <span class="input-group-addon">
+              <i class="glyphicon glyphicon-user"></i>
+            </span>
+          <input id="email" type="text" class="form-control" [(ngModel)]="email" #userEmail="ngModel" name="email" placeholder="Email" required>
+        </div>
+        <div class="error-class" *ngIf="!userEmail.valid && userEmail.touched">
+          Email is required!
+        </div>
+        
+        <br>
+        <div class="input-group">
+          <span class="input-group-addon">
+              <i class="glyphicon glyphicon-lock"></i>
+            </span>
+          <input id="password" type="password" [(ngModel)]="password" 
+          #userPassword="ngModel" class="form-control" name="password" 
+          placeholder="Password" required>
+        </div>
+        <div class="error-class" *ngIf="!userPassword.valid && userPassword.touched">
+          Password is required!
+        </div>
+        <br>
+
+        
+        <div class="input-group">
+          <span class="input-group-addon">
+              <i class="glyphicon glyphicon-user"></i>
+            </span>
+          <input id="phonenumber" type="text" class="form-control" 
+          pattern="[0-9]+" [(ngModel)]="phonenumber" #phoneNumber="ngModel" 
+          name="phonenumber" 
+          placeholder="Phone Number" ngControl="phoneNumber" required>
+        </div>
+        <div class="error-class" *ngIf="!phoneNumber.valid && phoneNumber.touched">
+          <div *ngIf="phoneNumber.errors.required">Phone Number is required!</div>
+          <div *ngIf="phoneNumber.errors.pattern">Enter Numbers Only</div>
+          
+        </div>
+        <br>
+
+
+        <div class="input-group">
+          <span class="input-group-addon">
+              <i class="glyphicon glyphicon-user"></i>
+          </span>
+            <textarea class="form-control" 
+                 [(ngModel)]="address" #Address="ngModel"
+                 placeholder="Address"
+                id="address" name="address" required>
+              </textarea>
+        </div>
+
+        <div class="error-class" *ngIf="!Address.valid && Address.touched">
+          <div *ngIf="Address.errors.required">Address required!</div>
+        </div>
+
+        <br>
+
+
+
+        <div class="input-group">
+          <span class="input-group-addon">
+              <i class="glyphicon glyphicon-user"></i>
+            </span>
+          <input id="pincode" type="text" class="form-control" 
+          pattern="[0-9]+" [(ngModel)]="pincode" #pinCode="ngModel" 
+          name="pincode" 
+          placeholder="PinCode" ngControl="pinCode" required>
+        </div>
+        <div class="error-class" *ngIf="!pinCode.valid && pinCode.touched">
+          <div *ngIf="pinCode.errors.required">PinCode required!</div>
+          <div *ngIf="pinCode.errors.pattern">Enter Numbers Only</div>
+          
+        </div>
+        <br>
+
+
+        <div class="login-btn">
+          <button type="submit" [disabled]="!newUserForm.form.valid" class="btn btn-primary lg-btn l-right">
+            Register
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

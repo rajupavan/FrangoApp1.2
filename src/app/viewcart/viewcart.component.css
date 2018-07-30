@@ -1,0 +1,126 @@
+.view-cart-wrapper{
+	padding-top: 80px;
+}
+
+/*.shop-table{
+	    border-collapse: collapse;
+    margin-bottom: 2em;
+    border: none;
+}
+table.shop_table {
+    border: 1px solid rgba(0,0,0,.1);
+    margin: 0 -1px 24px 0;
+    text-align: left;
+    width: 100%;
+    border-collapse: separate;
+    border-radius: 5px;
+}
+.shop-table .t-head{
+	display: table-row-group;
+	background-color: #ffbd2f !important;
+	color: white;
+}
+.c-tr-color{
+
+}
+
+.t-input-num input[type="text"]:focus, .t-input-num input[type="number"]:focus, .t-input-num input[type="email"]:focus, .t-input-num input[type="tel"]:focus, .t-input-num input[type="search"]:focus, .t-input-num input[type="password"]:focus, .t-input-num .select_container:hover, .t-input-numt select option:hover, .t-input-num select option:focus, .scheme_default .select2-container .select2-selection:hover, .scheme_default .select2-container .select2-choice:hover, .scheme_default textarea:focus, .scheme_default textarea.wp-editor-area:focus{
+    color: #9a9a9a;
+    border-color: #f76f2a;
+    background-color: #ffffff;	
+}
+.input-sm{
+	width: 40%;
+	border-radius: 25px;
+}*/
+
+.c-table-header{
+	background-color: #ffbd2f;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: white;
+	font-weight: bold;
+/*	box-shadow: 2px 2px 2px 2px #ffbd2f;*/
+}
+.c-table-rows{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: #f2f2f2;
+	border-bottom: 2px solid white;
+}
+.quantity-block input{
+	width: 100px;
+	background-color: white;
+	border-radius: 25px;
+	border-color: gray;
+	text-align: center;
+	color: #414449;
+	font-weight: bold;
+}
+
+.quantity-block input:focus{
+    color: #9a9a9a !important;
+    border-color: #f76f2a !important;
+    background-color: #ffffff !important;	
+}
+.quantity-block input:active{
+    color: #9a9a9a !important;
+    border-color: #f76f2a !important;
+    background-color: #ffffff !important;	
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.price-val{
+	font-weight: bold;
+	color: #f76f2a;
+}
+.total-val{
+	font-weight: bold;
+	color: #f76f2a;
+}
+.cart-view-footer{
+	float: right;
+	margin-right: 200px;
+	margin-top: 20px;
+}
+.cart-view-f-block{
+	display: inline-block;
+	list-style: none;
+}
+.c-f-total{
+	color: #43474b;
+	font-size: 20px;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+.s-total-blk{
+	border-bottom: 1px solid white;	
+}
+.c-t-blk{
+	background-color: #ffbd2f;
+	color: white;
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+}
+.c-amount-blk{
+	background-color: #f2f2f2;
+	color: #f76f2a;
+	font-weight: bold;
+	padding-top: 5px;
+	padding-bottom: 5px;	
+}
+.p-c-blk{
+		margin-top: 20px;
+}
+.c-btn-c{
+	color: white;
+	font-weight: bold;
+
+}

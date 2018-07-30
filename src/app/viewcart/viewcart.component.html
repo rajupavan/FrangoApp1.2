@@ -1,0 +1,148 @@
+<app-header></app-header>
+<div class="container">
+  <div class="view-cart-wrapper">
+    <div class="row c-table-header">
+      <div class="col-lg-1">
+      </div>
+      <div class="col-lg-5">
+        PRODUCT
+      </div>
+      <div class="col-lg-2">
+        PRICE
+      </div>
+      <div class="col-lg-2">
+        QUANTITY
+      </div>
+      <div class="col-lg-2">
+        TOTAL
+      </div>
+    </div>
+    <form>
+      <div class="row c-table-rows">
+        <div class="col-lg-1">
+        </div>
+        <div class="col-lg-5">
+          Pizza Margherita
+        </div>
+        <div class="col-lg-2 price-val">
+          €6.00
+        </div>
+        <div class="col-lg-2">
+          <div class="quantity-block">
+            <input class="q-number" value="1" type="number" step="1" min="0" name="">
+          </div>
+        </div>
+        <div class="col-lg-2 total-val">
+          €6.00
+        </div>
+      </div>
+      <div class="row c-table-rows">
+        <div class="col-lg-1">
+        </div>
+        <div class="col-lg-5">
+          Jumbo Wings Meal
+        </div>
+        <div class="col-lg-2 price-val">
+          €6.00
+        </div>
+        <div class="col-lg-2">
+          <div class="quantity-block">
+            <input class="q-number" value="2" type="number" step="1" min="0" name="">
+          </div>
+        </div>
+        <div class="col-lg-2 total-val">
+          €12.00
+        </div>
+      </div>
+      <div class="row c-table-rows">
+        <div class="col-lg-1">
+        </div>
+        <div class="col-lg-5">
+          Peri Peri Chicken
+        </div>
+        <div class="col-lg-2 price-val">
+          €6.00
+        </div>
+        <div class="col-lg-2">
+          <div class="quantity-block">
+            <input class="q-number" value="3" type="number" step="1" min="0" name="">
+          </div>
+        </div>
+        <div class="col-lg-2 total-val">
+          €18.00
+        </div>
+      </div>
+      <div class="row c-table-rows">
+        <div class="col-lg-1">
+        </div>
+        <div class="col-lg-5">
+          Pioneer
+        </div>
+        <div class="col-lg-2 price-val">
+          €6.00
+        </div>
+        <div class="col-lg-2">
+          <div class="quantity-block">
+            <input class="q-number" value="4" type="number" step="1" min="0" name="">
+          </div>
+        </div>
+        <div class="col-lg-2 total-val">
+          €24.00
+        </div>
+      </div>
+      <div class="row c-table-rows">
+        <div class="col-lg-1">
+        </div>
+        <div class="col-lg-5">
+          Frango special
+        </div>
+        <div class="col-lg-2 price-val">
+          €6.00
+        </div>
+        <div class="col-lg-2">
+          <div class="quantity-block">
+            <input class="q-number" value="5" type="number" step="1" min="0" name="">
+          </div>
+        </div>
+        <div class="col-lg-2 total-val">
+          €30.00
+        </div>
+      </div>
+    </form>
+    <div class="cart-view-footer">
+      <ul class="cart-view-f-block">
+        <li class="c-f-total">
+          CART TOTAL
+        </li>
+        <li class="s-total-blk">
+          <div class="row">
+            <div class="col-lg-6 c-t-blk">
+              SUBTOTAL
+            </div>
+            <div class="col-lg-6 c-amount-blk">
+              €90.00
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="row">
+            <div class="col-lg-6 c-t-blk">
+              TOTAL
+            </div>
+            <div class="col-lg-6 c-amount-blk">
+              €90.00
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="p-c-blk">
+            <button type="button" class="btn btn-warning c-btn-c" 
+            	(click)="goToCheckout()">
+           		 PROCEED TO CHECKOUT
+        	</button>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>

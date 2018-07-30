@@ -1,0 +1,50 @@
+.login-container{
+	background: linear-gradient(#3F51B5, #795548);
+	height: 100%;
+}
+
+.login-wrapper{
+	max-width: 300px;
+	margin: 0 auto;
+	padding-top: 100px;
+}
+.login-img-wrapper{
+	text-align: center;
+	display: block;
+	padding-top: 40px;
+}
+.login-content-wrapper{
+	padding-top: 30px;
+	margin-bottom: 20px;
+}
+
+.login-btn{
+	display: block;
+	text-align: center;
+	margin-top:  35px;
+
+}
+
+.lg-btn{
+	width: 110px;
+
+}
+.l-right{
+	margin-right: 10px;
+}
+
+.error-class{
+	color:white;
+	font-weight: bold;
+	font-family: arial;
+}
+.f-password{
+	    text-align: right;
+    display: block;
+    color: red; 	
+    cursor: pointer;
+}
+
+.f-password:hover{
+	color: white;
+}

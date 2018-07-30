@@ -1,0 +1,30 @@
+.header{
+	    width: 100%;
+    background-color: #fff;
+    padding: 0 20px;
+    box-shadow: 0 3px 5px 0 rgba(0,0,0,.1);
+    font-size: 15px;
+}
+.header-wrapper{
+	max-width: 1160px;
+    margin: 0 auto;
+    padding: 0;
+    height: 50px;
+}
+.left {
+    float: left;
+}
+.h100 {
+    height: 100%;
+}
+.menu-logo{
+	margin-top: 3px;
+}
+
+.right{
+    float: right;
+}
+.cart-log-blk img{
+	height: 40px;
+	margin-top: 3px;
+}

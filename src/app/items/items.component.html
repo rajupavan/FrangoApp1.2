@@ -1,0 +1,64 @@
+<app-header></app-header>
+<div class="dashboard-page">
+  <div class="items-head-img" [ngStyle]="{'background-image':'url(/../assets/imgs/'+headImage+'.jpg)'}">
+    <div class="items-bg-overlay" style="background: rgba(0,0,0,0.4);">
+      <div id="sticky_header" class="ui sticky">
+        <header class="header" id="header">
+          <div id="login-navigation" class="login__container right">
+            <div class="header-link">
+              <div class="button-row">
+              </div>
+              <button mat-button class="lg-h-btn">Login</button>
+              <button mat-stroked-button isRoundButton="true" class="c-account-btn" color="primary">
+                Create Account
+              </button>
+            </div>
+          </div>
+        </header>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="item-wrapper">
+    <div class="row">
+      <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+        <div class="category-wrapper">
+          <h5 class="cat-header-title">Categories</h5>
+          <ul class="cat-ul">
+            <li class="cat-li" *ngFor="let key of catListKeys" (click)="catListClick($event,key)">
+              <a href="">{{catList[key].title}}</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-8 col-md-12 col-sm-12 col-12">
+        <div class="menu-items-wrapper">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12" 
+            *ngFor ="let sitem  of selctedMenuDeatails">
+              <div class="item-menu">
+                <div class="item-bg-image" [ngStyle]="{'background-image':'url(/../assets/imgs/'+sitem.image+')'}"></div>
+                <div class="item-description">
+                  <a>{{sitem.title}}</a>
+                  <div> {{sitem.subtitle}}</div>
+                </div>
+                <div class="price-block">
+                  <a>{{sitem.price}}</a>
+                </div>
+                <div class="order-btn">
+                  <button type="button order-btn-c" class="btn btn-warning ad-t-cart" (click)="addToCart(sitem)">Add To Cart</button>
+                </div>
+                
+              <!--   <div class="order-btn">
+                  <button type="button order-btn-c" class="btn btn-warning ad-t-cart" (click)="addToCart(sitem)">Add To Cart</button>
+                </div> -->
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

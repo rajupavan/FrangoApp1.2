@@ -1,0 +1,38 @@
+{
+	"mealdeals":{
+		"title":"Meal Deals"
+	},
+	"pizzas":{
+		"title":"Pizzas"
+	},
+	"burgers":{
+		"title":"Burgers"
+	},
+	"wraps":{
+		"title":"Wraps"
+	},
+	"friedchicken":{
+		"title":"Fried Chicken"
+	},
+	"grillerperiperi":{
+		"title":"Griller Peri Peri"
+	},
+	"periperiexperience":{
+		"title":"Peri Peri Experience"
+	},
+	"periperiplatters":{
+		"title":"Peri Peri Platters"
+	},
+	"kidsmeals":{
+		"title":"Kids Meals"
+	},
+	"pastameals":{
+		"title":"Pasta Meals "
+	},
+	"specialbugermeals":{
+		"title":"Special Buger Meals"
+	},
+	"specialwrapmeals":{
+		"title":"Special Wrap Meals"
+	}
+}

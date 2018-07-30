@@ -1,0 +1,26 @@
+{
+	"periperi":{
+		"mt":"Pei Peri",
+		"st":"periperi",
+		"image":"/../assets/imgs/periperi.jpg",
+		"htext":"Steamed and Grilled"
+	},
+	"pizzas":{
+		"mt":"Pizzas",
+		"st":"pizzas",
+		"image":"/../assets/imgs/pizza.jpg",
+		"htext":"Extra toppings are available"
+	},
+	"mealdeals":{
+		"mt":"Meal Deals",
+		"st":"mealdeals",
+		"image":"/../assets/imgs/mealdealNew.jpg",
+		"htext":"All meals are served"
+	},
+	"burgers":{
+		"mt":"Burgers",
+		"st":"burgers",
+		"image":"/../assets/imgs/burger.jpg",
+		"htext":"Served with free salad"
+	}
+}
